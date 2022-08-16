@@ -2,7 +2,7 @@ import { Box, Flex, Spacer, chakra } from "@chakra-ui/react";
 
 const Logo = () => {
   return (
-    <Flex width="90px">
+    <Flex width="110px">
       <Box
         w="25px"
         height="50px"
