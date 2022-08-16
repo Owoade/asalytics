@@ -17,7 +17,7 @@ const Logo = () => {
         }}
       ></Box>
       <Spacer />
-      <chakra.span transform="translateY(1.9em)">ASAlytics</chakra.span>
+      <chakra.span fontWeight="extrabold" transform="translate(-.5em,1.9em)">ASAlytics</chakra.span>
     </Flex>
   );
 };

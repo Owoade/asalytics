@@ -26,7 +26,7 @@ const Header = ({ currentTheme, toggleTheme }: IHeaderProps) => {
         <Flex w="100%" p={3}>
           <Logo />
           <Spacer />
-          <Flex width="200px" transform="translateY(.3em)">
+          <Flex width={{xl:"200px", base: "180px"}} transform="translateY(.3em)">
             <ThemeIcon
               color={ contrastTypography }
               aria-label={`toggle theme`}

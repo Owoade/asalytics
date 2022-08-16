@@ -48,7 +48,7 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <Box bgColor="brand.bgColor" height={data ? "100%" : "100vh"} py="3em">
+    <Box bgColor="brand.bgColor" height={{xl: data ? "100%" : "100vh", base: "100%"}} py="3em">
       <Wrapper>
         <Box>
           <Heading
