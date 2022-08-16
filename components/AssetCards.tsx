@@ -4,7 +4,7 @@ const AssetCards = ({ assets }: { assets: IASA[] }) => {
   return (
     <Grid gridGap={"2.6em"} placeItems="center" width={{ md: "100%", sm: "450px", base: "100%"}} margin="0 auto" gridTemplateColumns={{lg:"repeat(4, 1fr)", md: "repeat(3, 1fr)", sm: "repeat(2, 1fr)",base: "repeat(1, 1fr)"}}>
       {assets.map((asset: IASA, i) => (
-        <Card asset={asset} index={i} />
+        <Card asset={asset} key={asset.name} index={i} />
       ))}
     </Grid>
   );
